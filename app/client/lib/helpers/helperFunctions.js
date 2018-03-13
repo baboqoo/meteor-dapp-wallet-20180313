@@ -309,11 +309,12 @@ Helpers.formatTransactionBalance = function(value, exchangeRates, unit) {
 
     // Baboqoo 소스
      return EthTools.formatBalance(value, format + '[0000000000000000]') + ' BBQ';
+     
     //if((unit === 'usd' || unit === 'eur' || unit === 'btc') &&
     //   exchangeRates && exchangeRates[unit]) {
 
     //    if(unit === 'btc')
-            format += '[000000]';
+    //        format += '[000000]';
     //    else
     //        format += '[0]';
 
